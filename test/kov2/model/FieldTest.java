@@ -48,7 +48,7 @@ public class FieldTest {
     @Test
     public void testGetSize() throws Exception{
 //        System.out.println("getSize");
-        final Field field = new Field();
+        final Field field = new Field(3);
         int expResult = 3;
 //        int result = field.getSize();
         assertEquals(expResult, field.getSize());
@@ -80,7 +80,7 @@ public class FieldTest {
 //        System.out.println("setFigure");
         final Point inputPoint = new Point(0, 0);
         final Figure inputFigure = Figure.O;
-        final Field field= new Field();
+        final Field field= new Field(3);
         field.setFigure(inputPoint, inputFigure);
         final Figure actualFigure = field.getFigure(inputPoint);
         // TODO review the generated test code and remove the default call to fail.
@@ -93,7 +93,7 @@ public class FieldTest {
 
         final Point inputPoint = new Point(0, 0);
 
-        final Field field= new Field();
+        final Field field= new Field(3);
 
         final Figure actualFigure = field.getFigure(inputPoint);
 
@@ -105,7 +105,7 @@ public class FieldTest {
 
         final Point inputPoint = new Point(-1, 0);
 
-        final Field field= new Field();
+        final Field field = new Field(3);
 try{
         field.getFigure(inputPoint);
         fail();
@@ -119,7 +119,7 @@ try{
 
         final Point inputPoint = new Point(0, -1);
 
-        final Field field= new Field();
+        final Field field = new Field(3);
 try{
         field.getFigure(inputPoint);
         fail();
@@ -133,7 +133,7 @@ try{
 
         
 
-        final Field field= new Field();
+        final Field field = new Field(3);
         final Point inputPoint = new Point(field.getSize()+1, 0);
 try{
         field.getFigure(inputPoint);
@@ -148,7 +148,7 @@ try{
 
         
 
-        final Field field= new Field();
+        final Field field = new Field(3);
         final Point inputPoint = new Point(0, field.getSize()+1);
 try{
         field.getFigure(inputPoint);
