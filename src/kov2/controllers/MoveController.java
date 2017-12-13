@@ -12,6 +12,6 @@ package kov2.controllers;
 public class MoveController {
     public void applyPicture() {
         System.out.println("test2");
-        System.out.println("test3");
+        System.out.println("test4");
     }
 }
