@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/lena/Documents/NetBeansProjects/JavaApplication2/src/kov2/model/exceptions/InvalidPointException.java</file>
+            <file>file:/C:/Users/lena/Documents/NetBeansProjects/JavaApplication2/src/kov2/model/exceptions/AbstractXOException.java</file>
+            <file>file:/C:/Users/lena/Documents/NetBeansProjects/JavaApplication2/src/kov2/model/Field.java</file>
+            <file>file:/C:/Users/lena/Documents/NetBeansProjects/JavaApplication2/src/kov2/model/exceptions/AlreadyOccupiedException.java</file>
+            <file>file:/C:/Users/lena/Documents/NetBeansProjects/JavaApplication2/src/kov2/model/Game.java</file>
+            <file>file:/C:/Users/lena/Documents/NetBeansProjects/JavaApplication2/src/kov2/controllers/MoveController.java</file>
+            <file>file:/C:/Users/lena/Documents/NetBeansProjects/JavaApplication2/test/kov2/model/FieldTest.java</file>
+        </group>
+    </open-files>
+</project-private>
